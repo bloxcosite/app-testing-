@@ -1,0 +1,37 @@
+{
+    "applications": [
+      {
+        "showCard": true,
+        "url": "/applications/hr",
+        "enabled": false,
+        "name_title": "High Rank",
+        "name_desc": "a High Rank",
+        "purchasable": true
+      },
+      {
+        "showCard": true,
+        "url": "/applications/dev",
+        "enabled": true,
+        "name_title": "Developer",
+        "name_desc": "a Developer",
+        "purchasable": false
+      },
+      {
+        "showCard": true,
+        "url": "/applications/ah",
+        "enabled": true,
+        "name_title": "-TEST1-DISABLED-TITLE-PURCHASABALE",
+        "name_desc": "-TEST",
+        "purchasable": false
+      },
+      {
+        "showCard": true,
+        "url": "/applications/ee",
+        "enabled": false,
+        "name_title": "-TEST1-ENABLED-TITLE",
+        "name_desc": "-TEST1-ENABLED-DESC",
+        "purchasable": true
+      }
+    ]
+  }
+  

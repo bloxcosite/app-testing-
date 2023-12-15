@@ -1,0 +1,298 @@
+/* root */
+
+:root {
+    --bloxco-blue: #2049A4;
+
+    /* hyra*/ 
+    --hyra-blue: #BFDBFE;
+    --hyra-purple: #DDD6FE;
+    --hyra-yellow: #FEF08A;
+    --hyra-cyan: #A5F3FC;
+    --hyra-pink: #FBCFE8;
+    --hyra-green: #BBF7D0;
+    --hyra-orange: #FED7AA;
+
+    /* discord*/
+    --saturation-factor: 1;
+    --brand-260-hsl: 235 calc(var(--saturation-factor, 1)*86.2%) 88.6%;
+    --brand-260: hsl(var(--brand-260-hsl)/1);
+    --brand-500-hsl: 235 calc(var(--saturation-factor, 1)*85.6%) 64.7%;
+    --mention-background: hsl(var(--brand-500-hsl)/0.3);
+    --mention-foreground: var(--brand-260);
+}
+
+/* discord mentions */
+.discord-mention {
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+    unicode-bidi: plaintext;
+    color: var(--mention-foreground);
+    background-color: var(--mention-background);
+}
+
+/* HYRA BACKGROUND COLORS START */
+.bgh-orange {
+    background-color: var(--hyra-orange);
+  }
+  .bgh-green {
+    background-color: var(--hyra-green);
+  }
+  .bgh-pink {
+    background-color: var(--hyra-pink);
+  }
+  .bgh-cyan {
+    background-color: var(--hyra-cyan);
+  }
+  .bgh-blue {
+    background-color: var(--hyra-blue);
+  }
+  .bgh-purple {
+    background-color: var(--hyra-purple);
+  }
+  .bgh-yellow {
+    background-color: var(--hyra-yellow);
+  }
+  /* HYRA BACKGROUND COLORS END */
+
+
+/* Body background color */
+body {
+    background-color: #222;
+    color: #fff;
+}
+
+.bg-dark {
+    background-color: #222 !important;
+}
+
+/* Navbar background color */
+.navbar {
+    background-color: #333;
+}
+
+/* Card background color */
+.card {
+    background-color: #333;
+    border: 1px solid #444;
+    color: grey;
+}
+
+/* Footer background color */
+#ftr {
+    background-color: #333;
+}
+
+/* Dark mode styles for links */
+a {
+    color: #e6e6e6;
+}
+
+/* Dark mode styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+
+
+/* Dark mode styles for profile card titles */
+.card-title {
+    color: #fff;
+}
+
+/* Dark mode styles for profile card text */
+.card-text {
+    color: grey;
+}
+
+/* Dark mode styles for profile card background */
+.profilecard {
+    background-color: #444;
+    border: 1px solid #555;
+    color: grey;
+    min-height: 100%;
+}
+
+/* Custom Dark Mode CSS */
+
+/* Background color for the entire page */
+body.dark-mode {
+    background-color: #222;
+}
+
+/* Text color for the entire page */
+body.dark-mode,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode a,
+body.dark-mode .navbar {
+    color: #fff;
+}
+
+
+
+/* Navbar background color in dark mode */
+.navbar.dark-mode {
+    background-color: #333;
+}
+
+/* Card background color in dark mode */
+.card.dark-mode {
+    background-color: #333;
+    border: 1px solid #444;
+    color: grey;
+}
+
+/* Footer background color in dark mode */
+#ftr.dark-mode {
+    background-color: #333 !important;
+    
+}
+
+/* Dark mode styles for links */
+a.dark-mode {
+    color: #e6e6e6;
+    transition: color 0.3s ease; /* Added transition property */
+}
+
+a:hover:not(.btn):not() {
+    text-decoration: dotted;
+    color: #5f5f5f !important;
+}
+
+
+
+/* Accent color */
+.accent{
+    color: var(--bloxco-blue);
+}
+
+/* AlsoKnownAs style */
+.aka {
+    font-weight: lighter;
+}
+
+
+ /* disclaimer */
+.disclaimer {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+/* alert edits */
+/*alert warning*/ 
+.alert-warning {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0 20px #fff3cdc5  !important; 
+}
+
+.alert-warning:hover {
+    box-shadow: 0 0 20px #fff3cd !important;
+}
+
+/*alert primary*/ 
+.alert-primary {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0 20px #cfe2ffb1  !important; 
+}
+
+.alert-primary:hover {
+    box-shadow: 0 0 20px #CFE2FF !important;
+}
+
+.alert-blurple {
+    box-shadow: 0 0 20px #5865F2 !important;
+    background-color: #5865F2 !important;
+    transition: transform 0.3s ease;
+
+}
+
+.alert-blurple:hover {
+    box-shadow: 0 0 20px #587cf2bb !important;
+    background-color: #5865F2 !important;
+    transform: scale(1.01);
+}
+
+
+.alert-halloween {
+    box-shadow: 0 0 20px #FF9800 !important;
+    background-color: #f56e00dc !important;
+    transition: transform 0.3s ease;
+
+}
+
+.alert-halloween:hover {
+    box-shadow: 0 0 20px #FF9800 !important;
+    background-color: #f56e00dc !important;
+    transform: scale(1.01);
+}
+
+.alert {
+    margin-left: 4% !important;
+    margin-right: 4% !important;
+    margin-top: 15px !important;
+}
+
+
+.bloxcoglow {
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0 18px #204aa4d6  !important; 
+}
+
+.bloxcoglow:hover {
+    box-shadow: 0 0 20px #206da4 !important;
+}
+
+/* remove scrollbar */
+::-webkit-scrollbar {
+    display: none;  
+}
+ 
+/* navbar */
+.dropdown-item {
+    transition: background-color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+
+.previous-hrotm {
+     opacity: 0.5;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.display {
+    display: block !important;
+}
+
+.professional {
+    font-family: 'Times New Roman', serif; 
+    font-style: italic;
+}
+
+/*footer*/
+site-version {
+    font-size: 10px;
+}
+
+/* selection */
+::-moz-selection {
+   color: white;
+   background: darkblue;
+}
+  
+::selection {
+  color: white;
+  background: darkblue;
+}
